@@ -1,0 +1,132 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    background-image: url(img/ro-do.jpg);
+  }
+  
+  .header {
+    background: linear-gradient(to bottom, #a56100, #c48f00);
+  }
+  
+  .logo {
+    max-width: 150px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #000;
+  }
+  
+  .new-monsters, .weapons, .features {
+    margin-bottom: 40px;
+  }
+  
+  .monsters-grid, .weapons-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-top: 20px;
+    
+  }
+  
+  .monster-card, .weapon-card {
+    background-color: #af8538b7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+
+    
+  }
+  
+  .monster-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .feature {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+    
+  }
+  
+  .feature h3 {
+    margin-top: 0;
+    color: #000;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #000;
+    
+  }
+  
+  header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 20px; 
+    background-color: #f4f4f4; 
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header img {
+    height: 50px; 
+  }
+  
+  header .text {
+    font-size: 18px;
+    font-weight: bold; 
+    color: #000;
+  }
+  
+  .monhan {
+    height: 90px;
+    text-align: left;
+  }
+  
+  .new-system {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .system-box {
+    background: #af8538b7; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    width: 60%; 
+    text-align:center;
+    height: 130px;
+    border-radius: 10%;
+  }
+  
+  .system-box h3 {
+    margin-bottom: 10px; 
+    font-size: 18px;
+  }
+  
+  .system-box p {
+    font-size: 14px; 
+    line-height: 1.5; 
+  }
+  
+  .cap{
+    height: 16px;
+  }

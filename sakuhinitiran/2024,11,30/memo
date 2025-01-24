@@ -1,0 +1,384 @@
+     <td>MONSTER HUNTER WILDS</td>
+                <td>新たな生命の地。</td>
+                <td>狩れ本能のままに！</td>
+
+
+                <div class="flex">
+                <p><img src="img/monhan1.jpg"></p>
+                <p>MONSTER HUNTER WILDS</p>
+                <p>新たな生命の地</p>
+                <p>狩れ本能のままに！</p>
+            </div>
+
+
+
+            <header class="header">
+            <img src="img/monhan1.jpg" alt="MONSTER HUNTER WILDS" class="logo">
+            <p>MONSTER HUNTER WILDS</p>
+
+
+
+
+
+
+
+
+
+
+            <section class="features">
+            <h2>今作から追加の新システム</h2>
+          <div class="feature">
+            <h3>弱点集中攻撃</h3>
+            <p>集中弱点攻撃を的にヒットさせると、一度で部位を破壊しはまたせることができます。</p>
+          </div>
+          <div class="feature">
+            <h3>持ち込める武器が2種類に増えた</h3>
+            <p>狩猟時、騎乗しているセクレトに2つ目の武器を持たせ、戦闘中に切り替えられるようになった。</p>
+          </div>
+        </section>
+      </main>
+
+
+
+
+
+
+
+
+      <div class="weapons-grid">
+        <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152331_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>大剣</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152417_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>太刀</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152435_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>片手剣</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152446_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>ハンマー</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152456_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>双剣</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152517_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>ランス</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152527_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>ガンランス</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152538_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>スラッシュアックス</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152548_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>チャージアックス</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152558_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>操虫棍</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_15256_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>狩猟笛</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152615_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>弓</p>
+          </div>
+          <div class="bou">
+            <img src="img/スクリーンショット_29-11-2024_152624_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>ヘヴィボウガン</p>
+          </div>
+          <div class="bou">
+            <img src="img/スクリーンショット_29-11-2024_15265_www.monsterhunter.com.jpeg" alt="沼噛竜ププロポル">
+            <p>ライトボウガン</p>
+
+    </section>
+
+    <div class="new-system">
+        <div class="system-box">
+          <h3>集中点中攻撃</h3>
+          <p>集中時攻撃を的にヒットさせると、一度で部位を破壊またはまたぎ攻撃できます。</p>
+        </div>
+        <div class="system-box">
+          <h3>持ち込める武器の組み合わせ</h3>
+          <p>狩猟時、狩猟しているセクレクト2つの武器を持たせ、戦闘中に切り替え可能です。</p>
+        </div>
+
+
+
+
+
+
+
+        
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+
+  }
+  
+  .header {
+    background: linear-gradient(to bottom, #a56100, #c48f00);
+  }
+  
+  .logo {
+    max-width: 150px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #000;
+  }
+  
+  .new-monsters, .weapons, .features {
+    margin-bottom: 40px;
+  }
+  
+.monsters-grid, .weapons-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr); /* 横に4つ並べる設定 */
+    margin-top: 20px;
+}
+  
+  .monster-card, .weapon-card {
+    background-color: #af8538b7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+
+    
+  }
+  
+
+  .monster-card img {
+    max-width: 100%; /* 元のスタイル */
+    border-radius: 8px;
+}
+  .monster-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .feature {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+    
+  }
+  
+  .feature h3 {
+    margin-top: 0;
+    color: #000;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #000;
+    
+  }
+  
+  header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 20px; 
+    background-color: #f4f4f4; 
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header img {
+    height: 50px; 
+  }
+  
+  header .text {
+    font-size: 18px;
+    font-weight: bold; 
+    color: #000;
+  }
+  
+  .monhan {
+    height: 90px;
+    text-align: left;
+  }
+  
+  .new-system {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .system-box {
+    background: #af8538b7; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    width: 60%; 
+    text-align:center;
+    height: 130px;
+    border-radius: 10%;
+  }
+  
+  .system-box h3 {
+    margin-bottom: 10px; 
+    font-size: 18px;
+  }
+  
+  .system-box p {
+    font-size: 14px; 
+    line-height: 1.5; 
+  }
+  
+  .cap{
+    height: 16px;
+  }
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monster Hunter Wilds</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <img src="img/logo_c.png" class="monhan">
+    <div class="text">MONSTER HUNTER WILDS</div>
+
+  </header>
+
+  <main>
+    <section class="new-monsters">
+      <h2>今作から登場の新モンスター</h2>
+      <div class="monsters-grid">
+        <div class="monster-card">
+          <img src="img/ajya.avif" alt="猟猛獣アジャラカン">
+          <p>猟猛獣アジャラカン</p>
+        </div>
+        <div class="monster-card">
+          <img src="img/asyu.avif" alt="鎚刃竜アルシュベルド">
+          <p>鎚刃竜アルシュベルド</p>
+        </div>
+        <div class="monster-card">
+          <img src="img/popo.avif" alt="沼噛竜ププロポル">
+          <p>沼噛竜ププロポル</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="weapons">
+      <h2>多彩な武器種</h2>
+      <div class="weapons-grid">
+        <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152331_www.monsterhunter.com.jpeg">
+            <p>大剣</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152417_www.monsterhunter.com.jpeg">
+            <p>太刀</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152435_www.monsterhunter.com.jpeg">
+            <p>片手剣</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152446_www.monsterhunter.com.jpeg">
+            <p>ハンマー</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152456_www.monsterhunter.com.jpeg">
+            <p>双剣</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152517_www.monsterhunter.com.jpeg">
+            <p>ランス</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152527_www.monsterhunter.com.jpeg">
+            <p>ガンランス</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152538_www.monsterhunter.com.jpeg">
+            <p>スラッシュアックス</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152548_www.monsterhunter.com.jpeg">
+            <p>チャージアックス</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152558_www.monsterhunter.com.jpeg">
+            <p>操虫棍</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_15256_www.monsterhunter.com.jpeg">
+            <p>狩猟笛</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152615_www.monsterhunter.com.jpeg">
+            <p>弓</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_152624_www.monsterhunter.com.jpeg">
+            <p>ヘヴィボウガン</p>
+          </div>
+          <div class="monster-card">
+            <img src="img/スクリーンショット_29-11-2024_15265_www.monsterhunter.com.jpeg">
+            <p>ライトボウガン</p>
+
+    </section>
+
+
+    <h2>今作から追加の新要素</h2>
+    <div class="new-system">
+
+        <div class="system-box">
+          <h3>集中点中攻撃</h3>
+          <p>集中時攻撃を的にヒットさせると、一度で部位を破壊またはまたぎ攻撃できます。</p>
+        </div>
+        <div class="system-box">
+          <h3>持ち込める武器の組み合わせ</h3>
+          <p>狩猟時、狩猟しているセクレクト2つの武器を持たせ、戦闘中に切り替え可能です。</p>
+        </div>
+      </div>
+<p></p>
+<p></p>
+<p></p>
+
+<p></p>
+
+  <footer class="footer">
+    <img src="img/cap.png" class="cap">
+  </footer>
+</body>
+</html>
